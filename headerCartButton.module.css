@@ -1,0 +1,27 @@
+/* HeaderCartButton.module.css */
+
+.button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #61dafb; 
+  border: 1px solid #61dafb;
+  color: white;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.badge {
+  margin-left: 0.5rem;
+  background-color: #ff4500; /* Orange color for badge, you can change it */
+  padding: 0.25rem 0.5rem;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: white;
+}
